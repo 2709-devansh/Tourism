@@ -1,0 +1,23 @@
+{
+  "name": "tourism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2709-devansh/Tourism.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2709-devansh/Tourism/issues"
+  },
+  "homepage": "https://github.com/2709-devansh/Tourism#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  }
+}
